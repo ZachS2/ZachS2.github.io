@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(241, 241, 241);
+}
+.btn-outline-success {
+border-color: black;
+color: black;
+}
+.btn-outline-success:hover {
+background-color: purple;
+}
+.heading {
+background-image: url(https://imgur.com/jMKBNet.jpg);
+background-position-x: right;
+height: 4.6in;
+}
+.heading h1 {
+font-family: 'Poppins', sans-serif;
+font-weight: 800;
+text-align: center;
+padding-top: 1in;
+}
+.heading h4 {
+font-family: 'Poppins', sans-serif;
+font-weight: 200;
+text-align: center;
+}
+.all-cards {
+float: none;
+margin-left: 1in;
+}
+.card {
+display: inline-block;
+margin-top: 1cm;
+}
+.card img {
+height: 4.5cm;
+}
+.about {
+border: 1pt solid rgba(0, 0, 0, 0.295);
+border-radius: 10px;
+width: 5in;
+height: 3in;
+float: right;
+margin-top: -9cm;
+margin-right: 2in;
+background-color: rgba(0, 174, 255, 0.137);
+}
+.about h4 {
+text-align: center;
+padding-top: 4mm;
+}
+.about p {
+padding-left: 1cm;
+padding-right: 1cm;
+}
+.reviews {
+  margin-left: 1.5in;
+  margin-top: 1in;
+  margin-bottom: 1in;
+}
+.reviews h3 {
+  text-align: center;
+  padding-bottom: 3mm;
+}
+#review {
+  height: 2.5in;
+  width: 4in;
+  background-color: #D3D5D4;
+  display: inline-block;
+  margin-left: 3mm;
+  margin-right: 3mm;
+  border-radius: 8px;
+}
+#content {
+  text-align: center;
+  padding-top: 4mm;
+  margin-left: 1cm;
+  margin-right: 1cm;
+}
+#name {
+  text-align: center;
+}
+#review img {
+  height: 2cm;
+  width: 2cm;
+  margin-top: 4mm;
+  margin-left: 4cm;
+  margin-right: 4cm;
+}
+@media only screen and (max-width: 30in){
+  
+}
+@media only screen and (min-width: 8in) and (max-width: 16in) {
+    .about {
+      width: 4in;
+      height: fit-content;
+      margin-right: 1in;
+    }
+}
+@media only screen and (max-width: 5in) {
+
+}
+
